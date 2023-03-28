@@ -140,7 +140,7 @@ void setup() {
     
   //*****************************
   // Cert leer archivo
-  File file4 = SPIFFS.open("/eeb9-certificate.pem.crt", FILE_READ);
+  File file4 = SPIFFS.open("/2fd8-certificate.pem.crt", FILE_READ);
   if (!file4) {
     Serial.println("No se pudo abrir el archivo para leerlo");
     return;
@@ -152,7 +152,7 @@ void setup() {
     
   //***************************************
   //Privatekey leer archivo
-  File file6 = SPIFFS.open("/eeb9-private.pem.key", FILE_READ);
+  File file6 = SPIFFS.open("/2fd8-private.pem.key", FILE_READ);
   if (!file6) {
     Serial.println("No se pudo abrir el archivo para leerlo");
     return;
