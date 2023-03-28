@@ -22,7 +22,7 @@ const char* password = PASSWORD;
 const char* mqtt_server = AWS_MQTT_SERVER;
 const int mqtt_port = 8883;
 String clientId = "Axolote_";
-const char* PUBLISH_TOPIC = "embebed_cloud/Axolote/test_topic_pub";
+const char* PUBLISH_TOPIC = "axolote/atmospheric_sensing/"; // Monitoreo atmosférico.
 const char* SUBSCRIBE_TOPIC = "embebed_cloud/Axolote/test_topic_sub";
 
 String Read_rootca;
